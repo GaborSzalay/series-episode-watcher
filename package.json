@@ -1,6 +1,6 @@
 {
   "name": "series-episode-watcher",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "This is a watcher job that helps you to log the last episode of series you watch",
   "repository": "gaborszalay/series-episode-watcher",
   "main": "index.js",
