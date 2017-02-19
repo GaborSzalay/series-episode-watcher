@@ -1,0 +1,38 @@
+{
+  "name": "series-episode-watcher",
+  "version": "0.1.0",
+  "description": "This is a watcher job that helps you to log the last episode of series you watch",
+  "repository": "gaborszalay/series-episode-watcher",
+  "main": "index.js",
+  "scripts": {
+    "local": "npm -g install .",
+    "lint": "eslint bin lib __tests__ __mocks__",
+    "pretest": "npm run lint",
+    "test": "jest --coverage",
+    "test:watch": "npm run test -- --watchAll",
+    "coveralls": "cat ./coverage/lcov.info | node_modules/coveralls/bin/coveralls.js"
+  },
+  "bin": {
+    "watcher": "index.js"
+  },
+  "files": [
+    "index.js",
+    "lib/cli.js",
+    "lib/command-run.js",
+    "config/watch-conditions.json"
+  ],
+  "author": "Gabor Szalay <yaastreet@gmail.com> (https://github.com/GaborSzalay)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "dependencies": {
+    "cron": "^1.2.1",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.16",
+    "eslint": "^3.15.0",
+    "jest": "^18.1.0"
+  }
+}
