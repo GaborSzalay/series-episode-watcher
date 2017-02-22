@@ -18,7 +18,8 @@
   "files": [
     "index.js",
     "lib/cli.js",
-    "lib/command-run.js",
+    "lib/command-start.js",
+    "lib/command-stop.js",
     "config/watch-conditions.json"
   ],
   "author": "Gabor Szalay <yaastreet@gmail.com> (https://github.com/GaborSzalay)",
@@ -29,6 +30,7 @@
   "dependencies": {
     "cron": "^1.2.1",
     "minimist": "^1.2.0",
+    "net": "^1.0.2",
     "read-last-lines": "^1.1.0",
     "recursive-readdir": "^2.1.1"
   },
