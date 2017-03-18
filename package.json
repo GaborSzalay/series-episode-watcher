@@ -1,6 +1,6 @@
 {
   "name": "series-episode-watcher",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "This is a watcher job that helps you to log the last episode of series you watch",
   "repository": "gaborszalay/series-episode-watcher",
   "main": "index.js",
@@ -20,7 +20,7 @@
     "lib/cli.js",
     "lib/command-start.js",
     "lib/command-stop.js",
-    "config/watch-conditions.json"
+    "config/series-config.json"
   ],
   "author": "Gabor Szalay <yaastreet@gmail.com> (https://github.com/GaborSzalay)",
   "license": "MIT",
@@ -30,9 +30,7 @@
   "dependencies": {
     "cron": "^1.2.1",
     "minimist": "^1.2.0",
-    "net": "^1.0.2",
-    "read-last-lines": "^1.1.0",
-    "recursive-readdir": "^2.1.1"
+    "net": "^1.0.2"
   },
   "devDependencies": {
     "coveralls": "^2.11.16",

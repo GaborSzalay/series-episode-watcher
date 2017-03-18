@@ -1,0 +1,33 @@
+{
+	"trackingLocation": "D:\\series",
+	"series": [
+		{
+			"name": "friends.html",
+			"pattern": "friends"
+		},
+		{
+			"name": "suits.html",
+			"pattern": "Suits"
+		},
+		{
+			"name": "new-girl.html",
+			"pattern": "New.Girl"
+		},
+		{
+			"name": "gilmore-girls.html",
+			"pattern": "gilmore.girls"
+		},
+		{
+			"name": "elementary.html",
+			"pattern": "Elementary"
+		},
+		{
+			"name": "bones.html",
+			"pattern": "bones"
+		},
+		{
+			"name": "the-big-bang-theory.html",
+			"pattern": "The.Big.Bang.Theory"
+		}
+	]
+}
